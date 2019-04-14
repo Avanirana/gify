@@ -19,7 +19,7 @@ $(document).ready(function() {
     $(this).addClass("active");
 
     var animal = $(this).attr("data-animal");
-    var queryURL="http://api.giphy.com/v1/gifs/search?q="+ animal +"&api_key=p0bgXHQsYz72GIfOmOF5FeOeSf6WjGkK&limit=10";
+    var queryURL="https://api.giphy.com/v1/gifs/search?q="+ animal +"&api_key=p0bgXHQsYz72GIfOmOF5FeOeSf6WjGkK&limit=10";
 
     $.ajax({
       url: queryURL,
